@@ -6,7 +6,7 @@ from sqlalchemy.engine.base import Connection
 
 app = Flask(__name__)
 
-app.config.from_object('config.DevelopmentConfig')
+app.config.from_object('config.ProductionConfig')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -14,7 +14,7 @@ db = SQLAlchemy(app)
 
 
 
-alchemy = 'postgresql+psycopg2://sahil:2001@localhost/bank'
+alchemy = 'postgres://lptzfenupmbzuj:33302222e95e7355014d650f5a4e264a4c2431fe668d7a33842539a4f081f209@ec2-35-174-35-242.compute-1.amazonaws.com:5432/dcvic7e9ur27ku'
 engine = create_engine(alchemy)
 connection = engine.connect()
 
