@@ -6,7 +6,7 @@ Endpoint: /api/branches/autocomplete?q=<>
 
 Example: /api/branches/autocomplete?q=RTGS&limit=3&offset=0
 
-https://fyle-part1-api.herokuapp.com/api/branches/autocomplete?q=RTGS&limit=3&offset=0
+https://bankdetails-api.herokuapp.com/api/branches/autocomplete?q=RTGS&limit=3&offset=0
 
 API Response
 
@@ -21,7 +21,7 @@ Endpoint: /api/branches?q=<>
 
 Example: /api/branches?q=Bangalore&limit=4&offset=0
 
-https://fyle-part1-api.herokuapp.com/api/branches?q=Bangalore&limit=4&offset=0
+https://bankdetails-api.herokuapp.com/api/branches?q=Bangalore&limit=4&offset=0
 
 API Response
 
