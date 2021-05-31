@@ -14,7 +14,7 @@ db = SQLAlchemy(app)
 
 
 
-alchemy = 'postgresql+psycopg2://lptzfenupmbzuj:33302222e95e7355014d650f5a4e264a4c2431fe668d7a33842539a4f081f209@ec2-35-174-35-242.compute-1.amazonaws.com:5432/dcvic7e9ur27ku'
+alchemy = 'postgresql+psycopg2://fdcdeuozoifpje:ebfab39c4ee0381543e77981369698f533e2607d322ee495a04a5c62ebe6abc8@ec2-35-174-35-242.compute-1.amazonaws.com:5432/d1ruejc17i3vba'
 engine = create_engine(alchemy)
 connection = engine.connect()
 
